@@ -306,6 +306,27 @@ body .d2c_mobile_view {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.d2c_projects_wrapper {
+    background: url(../images/services_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d2c_articles_wrapper {
+    background: url(../images/services_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d2c_writeup_wrapper{
+    background: url(../images/services_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d2c_courses_wrapper {
+    background: url(../images/services_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .d2c_counter_choose_bg {
     background: url(../images/counter_choose_bg.jpg);
     background-repeat: no-repeat;
@@ -383,6 +404,166 @@ h1 span {
     font-size: 14px;
 }
 /* About Section End */
+/* arcile section start */
+/* articles Section Start */
+.d2c_articles_wrapper h2 {
+    margin-bottom: 20px;
+}
+.d2c_articles_wrapper p {
+    margin-bottom: 65px;
+}
+.d2c_articles_wrapper .d2c_large_img {
+    height: 700px;
+}
+.d2c_articles_wrapper .d2c_small_img {
+    height: 338px;
+}
+.d2c_articles_wrapper .d2c_overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(13, 17, 26, 0.80) 0%, rgba(13, 17, 26, 0.80) 100%);
+    opacity: 1;
+    transition: 0.4s all;
+}
+.d2c_articles_wrapper .d2c_card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 0.4s all;
+}
+.d2c_articles_wrapper .d2c_img_wrapper:hover .d2c_overlay {
+    opacity: 0;
+    transition: 0.4s all;
+}
+.d2c_articles_wrapper .d2c_img_wrapper:hover .d2c_card {
+    opacity: 1;
+    transition: 0.4s all;
+}
+.d2c_articles_wrapper .d2c_card_child_three {
+    height: 100%;
+    padding: 0px 10px 10px 10px;
+}
+.d2c_content_wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.d2c_articles_wrapper h3 {
+    color: var(--default_color);
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.d2c_articles_wrapper .d2c_card_child_three p {
+    color: var(--color_two);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.d2c_articles_wrapper h4 {
+    color: var(--default_color);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.d2c_articles_wrapper ul {
+    padding-left: 0;
+}
+.d2c_articles_wrapper ul li {
+    padding: 7px 0px;
+    color: var(--color_two);
+}
+.d2c_articles_wrapper .d2c_icon {
+    width: 24px;
+    height: 24px;
+    color: var(--default_color);
+    font-size: 10px;
+    margin-right: 10px;
+}
+/* articles Section End */
+/* Courses section start */
+/* coursesSection Start */
+.d2c_courses_wrapper h2 {
+    margin-bottom: 20px;
+}
+.d2c_courses_wrapper p {
+    margin-bottom: 65px;
+}
+.d2c_courses_wrapper .d2c_large_img {
+    height: 700px;
+}
+.d2c_courses_wrapper .d2c_small_img {
+    height: 338px;
+}
+.d2c_courses_wrapper .d2c_overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(0deg, rgba(13, 17, 26, 0.80) 0%, rgba(13, 17, 26, 0.80) 100%);
+    opacity: 1;
+    transition: 0.4s all;
+}
+.d2c_courses_wrapper .d2c_card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 0.4s all;
+}
+.d2c_courses_wrapper .d2c_img_wrapper:hover .d2c_overlay {
+    opacity: 0;
+    transition: 0.4s all;
+}
+.d2c_courses_wrapper .d2c_img_wrapper:hover .d2c_card {
+    opacity: 1;
+    transition: 0.4s all;
+}
+.d2c_courses_wrapper .d2c_card_child_three {
+    height: 100%;
+    padding: 0px 10px 10px 10px;
+}
+.d2c_content_wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.d2c_courses_wrapper h3 {
+    color: var(--default_color);
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.d2c_courses_wrapper .d2c_card_child_three p {
+    color: var(--color_two);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.d2c_courses_wrapper h4 {
+    color: var(--default_color);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.d2c_courses_wrapper ul {
+    padding-left: 0;
+}
+.d2c_courses_wrapper ul li {
+    padding: 7px 0px;
+    color: var(--color_two);
+}
+.d2c_courses_wrapper .d2c_icon {
+    width: 24px;
+    height: 24px;
+    color: var(--default_color);
+    font-size: 10px;
+    margin-right: 10px;
+}
+/* coursesSection End */
 
 /* Service Section Start */
 .d2c_card {
@@ -414,7 +595,7 @@ h1 span {
     background: linear-gradient(180deg, rgba(32,35,55,1) 0%, rgba(57,59,96,1) 100%);
     margin: 0 auto 30px;
 }
-.d2c_service_icon {
+.d2c_articles_icon {
     width: 74px;
     height: 74px;
     font-size: 30px;
@@ -499,26 +680,27 @@ h1 span {
 /* Call To Action End */
 
 /* Project Section Start */
-.d2c_project_wrapper h2 {
+/* writeup Section Start */
+.d2c_writeup_wrapper h2 {
     margin-bottom: 20px;
 }
-.d2c_project_wrapper p {
+.d2c_writeup_wrapper p {
     margin-bottom: 65px;
 }
-.d2c_project_wrapper .d2c_large_img {
+.d2c_writeup_wrapper .d2c_large_img {
     height: 700px;
 }
-.d2c_project_wrapper .d2c_small_img {
+.d2c_writeup_wrapper .d2c_small_img {
     height: 338px;
 }
-.d2c_project_wrapper .d2c_overlay {
+.d2c_writeup_wrapper .d2c_overlay {
     position: absolute;
     inset: 0;
     background: linear-gradient(0deg, rgba(13, 17, 26, 0.80) 0%, rgba(13, 17, 26, 0.80) 100%);
     opacity: 1;
     transition: 0.4s all;
 }
-.d2c_project_wrapper .d2c_card {
+.d2c_writeup_wrapper .d2c_card {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -526,15 +708,15 @@ h1 span {
     opacity: 0;
     transition: 0.4s all;
 }
-.d2c_project_wrapper .d2c_img_wrapper:hover .d2c_overlay {
+.d2c_writeup_wrapper .d2c_img_wrapper:hover .d2c_overlay {
     opacity: 0;
     transition: 0.4s all;
 }
-.d2c_project_wrapper .d2c_img_wrapper:hover .d2c_card {
+.d2c_writeup_wrapper .d2c_img_wrapper:hover .d2c_card {
     opacity: 1;
     transition: 0.4s all;
 }
-.d2c_project_wrapper .d2c_card_child_three {
+.d2c_writeup_wrapper .d2c_card_child_three {
     height: 100%;
     padding: 0px 10px 10px 10px;
 }
@@ -543,40 +725,41 @@ h1 span {
     top: 50%;
     transform: translateY(-50%);
 }
-.d2c_project_wrapper h3 {
+.d2c_writeup_wrapper h3 {
     color: var(--default_color);
     font-size: 22px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 16px;
 }
-.d2c_project_wrapper .d2c_card_child_three p {
+.d2c_writeup_wrapper .d2c_card_child_three p {
     color: var(--color_two);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 26px;
 }
-.d2c_project_wrapper h4 {
+.d2c_writeup_wrapper h4 {
     color: var(--default_color);
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.d2c_project_wrapper ul {
+.d2c_writeup_wrapper ul {
     padding-left: 0;
 }
-.d2c_project_wrapper ul li {
+.d2c_writeup_wrapper ul li {
     padding: 7px 0px;
     color: var(--color_two);
 }
-.d2c_project_wrapper .d2c_icon {
+.d2c_writeup_wrapper .d2c_icon {
     width: 24px;
     height: 24px;
     color: var(--default_color);
     font-size: 10px;
     margin-right: 10px;
 }
-/* Project Section End */
+/* writeup Section End */
+
 
 /* Partner Section Start */
 .d2c_partner_box {
@@ -667,7 +850,7 @@ h1 span {
     border: 1px solid #333B6D;
     color: var(--primary_text_color);
 }
-.d2c_contact_wrapper ::placeholder {
+.d2c_courses_wrapper ::placeholder {
     color: var(--text_color) !important;
     opacity: 0.4;
 }
